@@ -26,8 +26,6 @@ function Venues() {
       });
   }, [id]);
 
-  console.log(schedules);
-
   const handleClick = (id) => {
     setId(id);
   };
